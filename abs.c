@@ -8,7 +8,7 @@ char starting_address[100];
 int recordpointer;
 void outputfile();
 
-void main()
+int main()
 {
    iptr = fopen("absin.txt","r");
    outptr=fopen("absout.txt","w");
